@@ -1,0 +1,39 @@
+.category-header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 6px;
+}
+
+.category-lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card-lists{
+    text-align: center;
+    background-color: rgb(79, 134, 136);
+    padding: 10px;    
+    margin: 6px;
+    width: 23%;
+    border-radius: 4px;
+    color: #e7e7e7;
+    box-shadow: 2px 2px 6px;
+}
+
+.category-lists img{
+    width: 92%;
+    height: 182px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.card-lists button{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}

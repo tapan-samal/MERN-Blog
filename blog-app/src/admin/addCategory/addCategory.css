@@ -1,0 +1,36 @@
+.add-category{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(165, 175, 189);
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.add-category form{
+    width: 36%;
+    margin-top: 26px;
+}
+
+.add-category input{
+    height: 36px;
+}
+
+.add-category img{
+    height: 160px;
+    width: 55%;
+    border-radius: 12px;
+}
+
+.add-submit{
+    margin-top: 25px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 550;
+    height: 32px;
+    cursor: pointer;
+}

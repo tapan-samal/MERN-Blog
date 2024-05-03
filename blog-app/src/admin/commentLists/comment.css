@@ -1,0 +1,35 @@
+.comment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 100%;
+}
+
+.comment-card{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #fff;
+    margin: 6px;
+    border-radius: 4px;
+    height: 160px;
+    width: 32%;
+    padding: 12px;
+}
+
+.comment-id{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+}
+
+.comment-id button{
+    background-color: tomato;
+    border: none;
+    padding: 3px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}

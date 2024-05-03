@@ -1,0 +1,80 @@
+/* home banner */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+    background: linear-gradient(to left, rgb(230, 230, 230), rgb(56, 56, 56));    
+}
+
+.banner img{
+    background-size: cover;
+    width: 72%;
+    height: 520px;
+}
+
+.title{
+    width: 28%;
+    letter-spacing: 1px;
+    padding: 6px;
+    color: rgb(0, 106, 245);
+
+}
+.banner p{
+    margin-top: 12px;
+    color: aliceblue;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* latest category  */
+.category-title{
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+    text-align: center;
+    padding: 32px;
+    letter-spacing: 1.2px;
+}
+
+.latest-cat{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(47, 98, 146);
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.latest-card{
+    text-align: center;
+    margin: 12px;
+    width: 23%;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.latest-cat img{
+    width: 92%;
+    height: 310px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+/* latest blogs */
+.latest-blog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px;
+    background-color: rgb(47, 98, 146);
+    color: aliceblue;
+}
+
+.card-blog{
+
+}
+.card-blog img{
+    height: 280px;
+    border-radius: 8px;
+}

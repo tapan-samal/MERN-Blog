@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    padding: 32px;
+    letter-spacing: 1.2px;
+}
+
+.footer img{
+    width: 120px;
+    height: 96px;
+    border-radius: 50%;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.flink{
+    text-decoration: none;
+    color: aliceblue;
+}
+.flink:hover{
+    color: rgb(144, 182, 240);
+}
